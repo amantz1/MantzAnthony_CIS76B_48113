@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* Styles created by Anthony Mantz */
+/* Assignment 3, Part 2 */
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 95%;
+	background-color: #F5F7C4;
+	color: #333333;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+a:link {
+	color: rgba(153,0,0,1);
+}
+a:visited {
+	color: rgba(255,102,0,1);
+}
+a:hover {
+	color: rgba(245,247,196,1);
+	background-color: rgba(153,0,0,1);
+}
+a:active {
+	color: rgba(51,153,255,1);
+}
+#copyright {
+	font-size: 90%;
+	color: rgba(153,153,153,1);
+	text-align: center;
+	margin: 25px;
+}

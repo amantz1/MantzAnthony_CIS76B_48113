@@ -1,0 +1,22 @@
+@charset "utf-8";
+#banner {
+	height: 189px;
+	background-color: #3574C4;
+}
+#nav {
+	height: 30px;
+	background-color: #DCDCDC;
+}
+#nav ul li {
+	list-style-type: none;
+	float: left;
+	margin-right: 5px;
+}
+#nav ul {
+	margin-top: -1px;
+
+}
+#sidebar {
+	width: 230px;
+	float: left;
+}

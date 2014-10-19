@@ -1,0 +1,97 @@
+/* Styles For "The Full Cup of Coffee" 
+	Author: 
+	Description:
+*/
+
+
+body { 
+	margin: 0 40px; 
+	background-color: #E6D5A4; 
+	color: black; 
+}
+
+body, td, th {
+	font: 100%/1.1 "Trebuchet MS", Tahoma, Verdana, sans-serif; 
+}
+
+th {
+	font-weight: bold;
+	text-align: left;
+}
+	
+
+h1 { 
+	margin: 0 -40px 0 -40px; 
+	background: url(bg_coffeebeans.jpg) rgb(76,39,31);
+}
+h2 {
+	margin-top: 30px;
+}
+
+h2 span {
+	font-size: 150%;
+}
+
+h2, h3, h4 { 
+	font-family: "Book Antiqua", Garamond, Georgia, serif; 
+	color: #774818; 
+	margin-bottom: .1em;
+}
+
+p {
+	margin-top: .1em;
+}
+
+#nav {
+	background-color: #BB9966;
+	margin: 0 -40px 25px -40px;
+	padding-left: 40px;
+	line-height: 1;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a { 
+	color: #663300;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 90%;
+	margin-right: 5px;
+}
+
+#thispage {
+	font-weight: bold;
+	color: #552200;
+	background-color: #E6D5A4; 	
+	padding: 0 .2em;
+}
+
+#sidebar {
+	float: right;
+	width: 355px;
+	margin: 40px 0 15px 25px;
+	border: 1px solid #BB9966;
+	border-width: 0 0 1px 1px;
+	padding: 0 0 10px 15px;
+}
+
+#sidebar h4 {
+	margin-top: 0px;
+}
+
+#sidebar p {
+	font: 80% Verdana, "Trebuchet MS", Tahoma, sans-serif;
+}
+
+hr {
+	width: 80%;
+	height: 1px;
+	margin-top: 30px;
+	color: #999966;
+	clear: right;
+}
+
+#copyright {
+	color: #999966;
+	font-size: 80%;
+	text-align: center;
+}

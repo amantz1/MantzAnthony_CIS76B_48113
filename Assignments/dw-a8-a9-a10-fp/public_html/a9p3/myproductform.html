@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Anthony Mantz's Collection Feedback</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' must contain an e-mail address.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' must contain a number.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' must contain a number between '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' is required.\n'; }
+    } if (errors) alert('The following error(s) occurred:\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+</script>
+</head>
+
+<body>
+<h1>Anthony Mantz's Collection Feedback
+</h1>
+<div id="fbrequest">
+<p><img src="u67resize.jpg" width="100" height="137" alt=""/></p>
+<p>We love feedback (but not the kind caused by holding your microphone up to a speaker). Questions, comments, or any other kind of feedback about our microphones? Don't hesitate to let us know. We love to hear stories about how the microphone you purchased from us was used to record a celebrity singer, or maybe captured the best snare drum sound you ever heard.</p>
+</div>
+<form method="post" enctype="application/x-www-form-urlencoded" name="feedback" id="feedback">
+  <p>
+    <label for="name">Name*:<br>
+    </label>
+    <input name="name" type="text" autofocus required id="name" form="feedback" placeholder="Please enter your name." size="30" maxlength="40" >
+  </p>
+  <p>
+    <label for="email">Email*:</label>
+    <br>
+<input name="email" type="email" required id="email" form="feedback" placeholder="Please enter your email address" size="30" maxlength="40">
+  </p>
+  <p>
+    <label for="select">What microphone(s) did you purchase:<br>
+    </label>
+    <select name="select" multiple id="select" form="feedback">
+<option value="u67">U67</option>
+      <option value="u87">U87</option>
+      <option value="c414tlii">C414/TLII</option>
+      <option value="c414buls">C414B/ULS</option>
+      <option value="c12">C12</option>
+      <option value="r121">R121</option>
+      <option value="md421">MD421</option>
+      <option value="d112">D112</option>
+      <option value="subkick">Subkick</option>
+      <option value="sm57">SM57</option>
+    </select>
+  </p>
+  <p>On a scale of 1-10, how would you rate this microphone*:
+    <br>
+    <input name="rating" type="text" id="rating" form="feedback" size="5" maxlength="2">
+  </p>
+  <p>What is your primary use for this microphone:<br>
+    <label>
+      <input name="mic_use" type="radio" id="mic_use_0" form="feedback" value="live">
+    Live</label>
+    <br>
+    <label>
+      <input name="mic_use" type="radio" id="mic_use_1" form="feedback" value="studio">
+      Studio</label>
+    <br>
+    <label>
+      <input name="mic_use" type="radio" id="mic_use_2" form="feedback" value="both">
+      Both</label>
+  </p>
+  <p>
+    <label>Would you like more microphone info? If so, what type? (Select all that apply)<br>
+      <input name="moremicinfo" type="checkbox" id="moremicinfo_0" form="feedback" value="dynamic">
+    Dynamic</label>
+    <br>
+    <label>
+      <input name="moremicinfo" type="checkbox" id="moremicinfo_1" form="feedback" value="condenser">
+      Condenser</label>
+    <br>
+    <label>
+      <input name="moremicinfo" type="checkbox" id="moremicinfo_2" form="feedback" value="ribbon">
+      Ribbon</label>
+  </p>
+  <p>
+    <label for="feedbackarea" onFocus="MM_validateForm('name','','R','feedbackarea','','R');return document.MM_returnValue">Questions, comments, feedback*:<br>
+    </label>
+    <textarea name="feedbackarea" cols="60" rows="3" required id="feedbackarea" form="feedback" placeholder="Please enter you feedback here."></textarea>
+  </p>
+  <p>
+  <div id="buttons">
+    <input name="submit" type="submit" id="submit" form="feedback" onClick="MM_validateForm('name','','R','rating','','RinRange1:10','feedbackarea','','R');return document.MM_returnValue" value="Send">
+    <input name="reset" type="reset" id="reset" form="feedback" value="Clear">
+    <br>
+    <br>
+  </p>
+  </div>
+</form>
+</body>
+</html>

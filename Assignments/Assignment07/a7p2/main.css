@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color: #333333;
+	background-color: #CCCCCC;
+	margin: 20px;
+}
+
+a:link { color: #003399; }
+a:visited { color: #003399; }
+a:hover { color: blue; text-decoration: none;}
+a:active { color: #FF0000; }
+
+#maintable { border: 1px solid #E0E0E0; }
+
+#content { background: #D8D8D8; margin-bottom: 30px;}
+
+#sidebar { background: #C0C0C8; }
+
+#nav { font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 80%;
+	margin-top: 10px;
+	}
+#nav a { margin: 0 5px; }
+
+#copyright { padding-top: 30px; }#artisttable a {
+	padding-left: 5px;
+	padding-right: 15px;
+}
+
+#content table tr td {
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+#maintable tr td table tr td p {
+}

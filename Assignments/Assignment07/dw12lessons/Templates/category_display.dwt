@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>OrganicUtopia Home Page</title>
+	<!-- TemplateEndEditable -->
+	<style type="text/css">
+    </style>
+    <link href="../styles.css" rel="stylesheet" type="text/css">
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+	</head>
+<body>
+<div id="container">
+  <div id="GlobalNav">Site Map | Login</div>
+  <div id="header"><img src="../images/ou_logo.gif" width="210" height="41"></div>
+  <div id="nav">
+    <ul>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div id="main">
+    <h1 ><!-- TemplateBeginEditable name="CategoryName" -->Category Name<!-- TemplateEndEditable --></h1>
+    <p>&nbsp;</p>
+    <!-- TemplateBeginRepeat name="Products" -->
+    <table width="100%" border="0" cellpadding="2" class="styledtable">
+      <tr>
+        <td width="50%" height="50" align="center"><!-- TemplateBeginEditable name="ProductName" -->
+          <p>{Product}</p>
+        <!-- TemplateEndEditable -->
+          <p>&nbsp;</p>
+          <p><!-- TemplateBeginEditable name="ProductImage" --><img src="" alt="" name="veg_thumb" width="75" height="75" id="veg_thumb"><!-- TemplateEndEditable --></p></td>
+        <td height="50" align="center"><!-- TemplateBeginEditable name="ProductName2" -->
+          <p>{Product}</p>
+        <!-- TemplateEndEditable -->
+          <p>&nbsp;</p>
+        <p><!-- TemplateBeginEditable name="ProductImage2" --><img src="" alt="" name="veg_thumb" width="75" height="75" id="veg_thumb2"><!-- TemplateEndEditable --></p></td>
+      </tr>
+    </table>
+    <!-- TemplateEndRepeat --></div>
+  <div id="sidebar">
+ <dl>
+  <dt>Product Description</dt>
+  <dd>Organic Utopia's blowout sale. Lots of great deals on clothing, food, green accessories and more. Big saviings can be found everywhere!</dd>
+  <dt>&nbsp;</dt>
+    </dl>
+  </div>
+  <div id="footer">
+    <p>All content copyright of OrganicUtopia</p>
+    <p>Anthony Mantz</p>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title></title>
+<!-- TemplateEndEditable -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+
+<link href="../main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<table id="maintable" width="700" border="0" align="center" cellpadding="5">
+  <tr> 
+    <td colspan="3" align="center" valign="top"><p><img src="../images/topsfbw_gallery.gif" width="320" height="75"><br></p>
+      <!-- #BeginLibraryItem "/Library/links.lbi" --><div id="nav">
+<a href="../index.html">home</a> . 
+<a href="../artists.html">artists</a> . 
+<a href="../shows.html">shows</a> . 
+<a href="../locations.html">locations</a> . 
+<a href="../opportunities.html">opportunities</a> . 
+<a href="../contacts.html">contacts</a>
+</div><!-- #EndLibraryItem --><p>&nbsp;</p></td>
+  </tr>
+  <tr> 
+    <td width="150" valign="top" id="sidebar"> 
+      <p><strong><font face="Arial, Helvetica, sans-serif">Featured Artist:</font><br>
+        <br>
+        </strong> <!-- TemplateBeginEditable name="artist name" --><strong><font face="Arial, Helvetica, sans-serif" color="#FFFFFF">artist 
+        name</font></strong><!-- TemplateEndEditable --></p>
+      <hr width="100%" size="3" noshade color="#666677">
+      <br>
+      <p><strong><font face="Arial, Helvetica, sans-serif">Other Artists:</font><br>
+        <br>
+        </strong> </p>
+      <!-- TemplateBeginEditable name="artist links" --> 
+      <p><a href="link it to a different artist page"><font face="Arial, Helvetica, sans-serif"><strong><font color="#FFFFFF">artist 
+        1 link</font></strong></font></a><strong><br>
+        <br>
+        <a href="link it to different artist page"><font color="#FFFFFF" face="Arial, Helvetica, sans-serif">artist 2 link</font></a></strong></p>
+      <!-- TemplateEndEditable --></td>
+    <td width="450" colspan="2" align="right" valign="top"><table border="1" cellspacing="0" cellpadding="10">
+      <!-- TemplateBeginRepeat name="Photo_and_Description" -->
+      <tr>
+        <td valign="top"><!-- TemplateBeginEditable name="Photo" --><img name="Artist_Photo" src="" width="120" height="120" alt="" style="background-color: #0099FF"><!-- TemplateEndEditable --></td>
+        <td valign="top"><!-- TemplateBeginEditable name="Description" -->This is where the description for the photo goes. It would describe details of the photo to the left.<!-- TemplateEndEditable --></td>
+      </tr>
+      <!-- TemplateEndRepeat -->
+    </table></td>
+  </tr>
+
+  <tr> 
+    <td colspan="3" align="center" id="copyright"><!-- #BeginLibraryItem "/Library/copyright.lbi" -->
+<font size="2">Copyright 2001 - 2014 SF Anthony Mantz Gallery and its artists, 
+all rights reserved.</font><!-- #EndLibraryItem --></td>
+  </tr>
+</table>
+</body>
+</html>

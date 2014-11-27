@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Anthony Mantz - About Us - Our Goal</title>
+<meta http-equiv="pragma" content="no-cache" />
+<!--
+
+A8P2 Anthony Mantz
+
+-->
+<link href="assets/styles.css" rel="stylesheet" type="text/css" />
+<script type="text/JavaScript">
+<!--
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+#tableLayout #tdContent p {text-align: left;}
+-->
+</style>
+</head>
+<body onload="MM_CheckFlashVersion('7,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?')">
+<table width="700" align="center" id="tableLayout">
+	<tr>
+		<td id="tdNavigation">&nbsp;</td>
+		<td id="tdLogo"><a href="index.htm"><img src="assets/images/logo.png" alt="teacloud" width="70" height="50" border="0" /></a></td>
+	</tr>
+	<tr>
+		<td id="tdContent"><h1>Brewing Tea:Brewing Instructions </h1>
+			<p><img src="assets/images/splash/aboutus.jpg" alt="" width="411" height="50" /></p>
+			<h2>View the Process of Tea Being Steeped </h2>
+			<p>&nbsp;</p>
+			<p>&nbsp;</p></td>
+		<td id="tdSidebar"><a href="brewingtea.html" class="current"><img src="assets/images/navigation/bullet.gif" alt="" width="12" height="7" />Brew
+				Instructions </a> </td>
+	</tr>
+	<!--<tr>
+		<td colspan="2" id="tdFooter"> send us your thoughts <img src="assets/images/biegebullet.gif" alt="" width="7" height="8" /></td>
+	</tr>-->
+</table>
+<div id="divCopyright">Site Design by <a href="http://www.lynda.com/">lynda.com</a> (Adam
+	and Dan)</div>
+</body>
+</html>

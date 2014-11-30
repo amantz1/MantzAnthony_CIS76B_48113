@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+html{
+	height: 100%;
+}
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background-color: #CDCCC8;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-image: -webkit-linear-gradient(270deg,rgba(139,202,203,1.00) 22.28%,rgba(204,196,159,1.00) 83.42%);
+	background-image: -moz-linear-gradient(270deg,rgba(139,202,203,1.00) 22.28%,rgba(204,196,159,1.00) 83.42%);
+	background-image: -o-linear-gradient(270deg,rgba(139,202,203,1.00) 22.28%,rgba(204,196,159,1.00) 83.42%);
+	background-image: linear-gradient(180deg,rgba(139,202,203,1.00) 22.28%,rgba(204,196,159,1.00) 83.42%);
+}
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;	 
+	padding-right: 15px;
+	padding-left: 15px; 
+	font-family: acme, carter-one, "Gill Sans", sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+p {
+	padding: 0 15px 0 15px;
+}
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+	width: 960px;
+	background-color: #EEEEEE;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+header {
+	background-color: #8BCACB;
+	background-image: url(images/micfillbanner.gif);
+	padding: 10px 0 10px 50px;
+	background-position: 90% 0%;
+	background-repeat: no-repeat;
+}
+
+.imgl {
+	float: left;
+	margin: 0 15px 0 25px;
+}
+
+.imgr {
+	float: right;
+	margin: 0 15px 0 25px;
+}
+
+.maincont p {
+	margin: 0 10px 15px 15px;
+	line-height: 1.5em;
+}
+
+.maincont .emphasis {
+	font-size: 1.2em;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.maincont h2 {
+	text-align: center;	
+}
+
+.maincont a, .maincont a:visited {
+	font-style: italic;
+	font-size: 1.1em;
+	color: #439495;
+	text-decoration: none;
+}
+
+.maincont a:hover {
+	color: #2D6565;
+}
+
+.sidebar1 {
+	float: right;
+	width: 310px;
+	background-color: #EADCAE;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 25px;
+}
+.content {
+	padding: 10px 0;
+	width: 650px;
+	float: right;
+	background-color: #EEEEEE;
+}
+
+.content h1 {
+	margin-top: 5px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+.content p {
+	color: #333333;
+}
+/* ~~ This grouped selector gives the lists in the .content area space ~~ */
+.content ul, .content ol {
+	padding: 0 15px 15px 40px; /* this padding mirrors the right padding in the headings and paragraph rule above. Padding was placed on the bottom for space between other elements on the lists and on the left to create the indention. These may be adjusted as you wish. */
+}
+
+#feedback {
+	display: block;
+	border: 1px solid #000000;
+	border-radius: 50px;
+	margin: 10px 30px 10px 30px;
+	padding: 20px 40px 20px 40px;
+	background-color: #F2EACE;
+}
+.formreq {
+	color: #666666;
+	font-size: .8em;
+}
+
+#cbspace input {
+	margin-left: 30px;
+}
+#navbar {
+	display: inline-block;
+	width: 100%;
+	background-color: #EADCAE;
+	border-bottom: 1px solid #666; /* this creates the button separation */
+	border-top: 1px solid #666; /* this creates the top border for the links - all others are placed using a bottom border on the LI */
+	margin-bottom: -5;
+}
+/* ~~ The navigation list styles (can be removed if you choose to use a premade flyout menu like Spry) ~~ */
+nav ul{
+	list-style: none; /* this removes the list marker */
+	margin-left: 30px;
+}
+nav li {
+	float: left;
+}
+nav a, nav a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 160px;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+}
+nav a:hover, nav a:active, nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	background-color: #CCC49F;
+	color: #FFF;
+}
+
+/* ~~ The footer ~~ */
+footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, article, figure {
+	display: block;
+}
+footer p {
+	text-align: center;
+	font-size: .7em;
+}
+.featureprice {
+	color: #BF1517;
+	font-size: 1.7em;
+	margin-top: 10px;
+}
+
+#Tabs1 {
+	width: 600px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #B4DDDD;
+}.make {
+	padding-left: 5px;
+}
+.price {
+	padding-right: 5px;
+}
+table tbody th {
+	background-color: #CCCCCC;
+}
+.rowemph {
+	background-color: #DDDDDD;
+}
+.container p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
